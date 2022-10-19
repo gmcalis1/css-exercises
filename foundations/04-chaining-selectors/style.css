@@ -4,10 +4,11 @@ then give it a height so that it retains its original square proportions (don't 
 then make its height twice as big as its width (here you should hardcode in a pixel value). */
 
 .avatar.proportioned{
+    height: auto;
     width: 300px;
-    height:auto;
 }
-.avatar.distorded{
-    width: 200px;
+.avatar.distorted{
     height: 400px;
+    width: 200px;
 }
+
